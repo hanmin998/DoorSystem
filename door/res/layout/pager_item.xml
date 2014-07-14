@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView 
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+        	android:layout_height="80dp"
+        	android:layout_alignParentBottom="true"
+        	android:textSize="40sp"
+        	android:gravity="center"
+        	android:textColor="#fff"
+        	android:shadowColor="#000"
+        	android:shadowDx="1"
+        	android:shadowDy="1"
+        	android:shadowRadius="1"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+        	android:shadowColor="#000"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:shadowDx="1"
+        	android:shadowDy="1"
+        	android:shadowRadius="1"
+            android:text="跳过" />
+
+    </RelativeLayout>
